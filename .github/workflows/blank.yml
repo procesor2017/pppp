@@ -16,6 +16,7 @@ jobs:
       - uses: actions/checkout@v2
       - run: |
           echo Ahoj světe
+      - run: echo Ahoj světe opět
   Try_2:
     runs-on: ubuntu-latest
     steps:
@@ -30,3 +31,4 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: echo Ahoj světe 3!!!
+
